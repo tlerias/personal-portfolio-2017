@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.style.css';
-
+import Section from './components/Section';
 class App extends Component {
   render() {
     return (
@@ -15,8 +15,9 @@ class App extends Component {
             <h2 className="App-header-subtext">Front End Engineer</h2>
           </figure>
         </div>
-        <p className="App-intro">
-        </p>
+        <main className="App-intro">
+          <Section title="Toolbox"/>
+        </main>
       </div>
     );
   }
