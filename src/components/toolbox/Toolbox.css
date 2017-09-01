@@ -1,0 +1,17 @@
+.Toolbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Toolbox-framework {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Toolbox-tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
