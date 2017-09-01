@@ -25,7 +25,7 @@ export default StyleSheet.create({
         "display": "flex",
         "justifyContent": "center",
         "alignItems": "center",
-        "width": 200,
+        "width": 150,
         "height": 100
     },
     "Framework-logo": {

@@ -1,16 +1,20 @@
 .Toolbox {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
 }
 
 .Toolbox-framework {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
 }
 
 .Toolbox-tools {
+  width: 50%;
+  font-size: .8rem;
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

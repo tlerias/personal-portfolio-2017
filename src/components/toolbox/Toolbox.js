@@ -9,14 +9,18 @@ export default StyleSheet.create({
     "Toolbox": {
         "display": "flex",
         "flexDirection": "column",
-        "justifyContent": "space-around"
+        "alignItems": "center"
     },
     "Toolbox-framework": {
         "display": "flex",
+        "flexWrap": "wrap",
         "flexDirection": "row",
         "justifyContent": "space-around"
     },
     "Toolbox-tools": {
+        "width": "50%",
+        "fontSize": 0.8,
+        "flexWrap": "wrap",
         "display": "flex",
         "flexDirection": "row",
         "justifyContent": "space-evenly"
