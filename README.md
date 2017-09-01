@@ -15,7 +15,7 @@ npm run start
 ```
 or
 ```bash
-npm run start
+yarn run start
 ```
 
 ### build app
