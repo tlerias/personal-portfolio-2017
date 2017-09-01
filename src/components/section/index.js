@@ -4,6 +4,7 @@ import './Section.css';
 class Section extends Component {
   render() {
     const {
+      icon,
       title,
       backgroundColor,
       children
@@ -15,7 +16,7 @@ class Section extends Component {
 
     return (
       <div className="Section" style={style}>
-        <h2>{title}</h2>
+        <h2><i className={`fa ${icon}`} å/> {title}</h2>
         {children}
       </div>
     );

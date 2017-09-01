@@ -17,7 +17,7 @@ export const logos = [
   {
     name: 'Nodejs',
     url: 'toolbox/nodejs_logo_light.png',
-    experience: '3+ years'
+    experience: '2+ years'
   }
 ];
 
