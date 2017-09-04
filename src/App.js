@@ -35,7 +35,7 @@ export default StyleSheet.create({
         "paddingRight": 20,
         "paddingBottom": 20,
         "paddingLeft": 20,
-        "color": "white"
+        "color": "#FFF"
     },
     "App-header-text": {
         "height": 80,
@@ -48,7 +48,7 @@ export default StyleSheet.create({
     },
     "App-header-link": {
         "textDecoration": "none",
-        "color": "white",
+        "color": "#FFF",
         "cursor": "pointer"
     },
     "App-header-link:hover": {
@@ -57,11 +57,11 @@ export default StyleSheet.create({
     },
     "App-header-link:visited": {
         "textDecoration": "none",
-        "color": "white"
+        "color": "#FFF"
     },
     "App-header-link:focus": {
         "textDecoration": "none",
-        "color": "white"
+        "color": "#FFF"
     },
     "": {
         "textDecoration": "none",
