@@ -14,11 +14,22 @@ const sections = {
   about: {
     icon: 'fa-info'
   },
-  contact: {
-    icon: 'fa-inbox'
-  }
 };
 
+const contactSections = {
+  github: {
+    icon: 'fa-github-alt',
+    url: 'https://github.com/tlerias'
+  },
+  linkedin: {
+    icon: 'fa-linkedin-square',
+    url: 'https://www.linkedin.com/in/tlerias'
+  },
+  email: {
+    icon: 'fa-envelope',
+    url: 'mailto: shoutouttara@gmail.com'
+  },
+};
 /*
 darkest : #443b44
 #6b5e6b
@@ -39,7 +50,11 @@ class App extends Component {
             <h2 className="App-header-subtext App-header-title">Front End Engineer</h2>
           </figure>
           <nav className="App-header-nav">
-            {Object.keys(sections).map(section => <i className={`App-header-icon fa ${sections[section].icon}`} />)}
+            {Object.keys(contactSections).map(section => (
+              <a className="App-header-link" href={contactSections[section].url} target="_blank">
+                <i className={`App-header-icon fa ${contactSections[section].icon}`} />
+              </a>
+            ))}
           </nav>
         </div>
         <main className="App-intro">
@@ -49,8 +64,6 @@ class App extends Component {
           <Section icon={sections.experience.icon} title="Experience" backgroundColor="#6b5e6b">
           </Section>
           <Section icon={sections.about.icon} title="About me" backgroundColor="#8c7b8c">
-          </Section>
-          <Section icon={sections.contact.icon} title="Contact" backgroundColor="#D8BFD8">
           </Section>
         </main>
       </div>

@@ -46,6 +46,27 @@ export default StyleSheet.create({
         "justifyContent": "center",
         "alignItems": "flex-start"
     },
+    "App-header-link": {
+        "textDecoration": "none",
+        "color": "white",
+        "cursor": "pointer"
+    },
+    "App-header-link:hover": {
+        "textDecoration": "none",
+        "color": "#D8BFD8"
+    },
+    "App-header-link:visited": {
+        "textDecoration": "none",
+        "color": "white"
+    },
+    "App-header-link:focus": {
+        "textDecoration": "none",
+        "color": "white"
+    },
+    "": {
+        "textDecoration": "none",
+        "color": "#D8BFD8"
+    },
     "App-header-subtext": {
         "fontFamily": "'Josefin Sans', sans-serif",
         "marginTop": 0,

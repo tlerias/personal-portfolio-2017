@@ -38,6 +38,26 @@
   align-items: flex-start;
 }
 
+.App-header-link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.App-header-link:hover,
+.App-header-link:visited,
+.App-header-link:focus,
+ {
+  text-decoration: none;
+  color: white;
+}
+
+.App-header-link:hover,
+ {
+  text-decoration: none;
+  color: #D8BFD8;
+}
+
 .App-header-subtext {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
