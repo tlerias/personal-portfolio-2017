@@ -38,22 +38,15 @@
   align-items: flex-start;
 }
 
-.App-header-link {
-  text-decoration: none;
-  color: #FFF;
-  cursor: pointer;
-}
-
+.App-header-link,
 .App-header-link:hover,
 .App-header-link:visited,
-.App-header-link:focus,
- {
+.App-header-link:focus {
   text-decoration: none;
   color: #FFF;
 }
 
-.App-header-link:hover,
- {
+.App-header-link:hover {
   text-decoration: none;
   color: #D8BFD8;
 }

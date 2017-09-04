@@ -48,8 +48,7 @@ export default StyleSheet.create({
     },
     "App-header-link": {
         "textDecoration": "none",
-        "color": "#FFF",
-        "cursor": "pointer"
+        "color": "#FFF"
     },
     "App-header-link:hover": {
         "textDecoration": "none",
@@ -62,10 +61,6 @@ export default StyleSheet.create({
     "App-header-link:focus": {
         "textDecoration": "none",
         "color": "#FFF"
-    },
-    "": {
-        "textDecoration": "none",
-        "color": "#D8BFD8"
     },
     "App-header-subtext": {
         "fontFamily": "'Josefin Sans', sans-serif",
