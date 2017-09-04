@@ -11,6 +11,9 @@ const sections = {
   experience: {
     icon: 'fa-file-text-o'
   },
+  projects: {
+    icon: 'fa-tasks'
+  },
   about: {
     icon: 'fa-info'
   },
@@ -61,10 +64,15 @@ class App extends Component {
           <Section icon={sections.toolbox.icon} title="Toolbox" backgroundColor="#443b44">
             <Toolbox />
           </Section>
-          <Section icon={sections.experience.icon} title="Experience" backgroundColor="#6b5e6b">
+          {/*<Section icon={sections.experience.icon} title="Experience" backgroundColor="#6b5e6b">
+            More information to come. This site is still under construction.
           </Section>
-          <Section icon={sections.about.icon} title="About me" backgroundColor="#8c7b8c">
+          <Section icon={sections.projects.icon} title="Projects" backgroundColor="#8c7b8c">
+            More information to come. This site is still under construction.
           </Section>
+          <Section icon={sections.about.icon} title="About me" backgroundColor="#D8BFD8">
+            More information to come. This site is still under construction.
+          </Section>*/}
         </main>
       </div>
     );
