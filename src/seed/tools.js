@@ -39,6 +39,10 @@ export const tools = [
     url: '',
   },
   {
+    name: 'Redux',
+    url: '',
+  },
+  {
     name: 'ES6',
     url: '',
   },
