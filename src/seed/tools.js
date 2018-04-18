@@ -2,22 +2,22 @@ export const logos = [
   {
     name: 'JavaScript',
     url: 'toolbox/js_logo.png',
-    experience: '3+ years'
+    experience: '4 years'
   },
   {
     name: 'Angular (1, 2, 4)',
     url: 'toolbox/angular_logo.png',
-    experience: '3+ years'
+    experience: '4 years'
   },
   {
     name: 'React',
     url: 'toolbox/reactjs_logo.png',
-    experience: '1+ years'
+    experience: '2 years'
   },
   {
     name: 'Nodejs',
     url: 'toolbox/nodejs_logo_light.png',
-    experience: '2+ years'
+    experience: '4 years'
   }
 ];
 
