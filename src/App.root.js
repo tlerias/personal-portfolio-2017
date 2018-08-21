@@ -49,7 +49,7 @@ class App extends Component {
             <span className="App-logo-text">TL</span>
           </figure>
           <figure className="App-header-text">
-            <h1 className="App-header-subtext">Tara Lerias</h1>
+            <h1 className="App-header-subtext">Tara (Lerias) Bird</h1>
             <h2 className="App-header-subtext App-header-title">Front End Engineer</h2>
           </figure>
           <nav className="App-header-nav">
