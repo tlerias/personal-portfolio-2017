@@ -5,15 +5,15 @@ export const logos = [
     experience: '4+ years'
   },
   {
-    name: 'Angular (1, 2, 4)',
-    url: 'toolbox/angular_logo.png',
+    name: 'React',
+    url: 'toolbox/reactjs_logo.png',
     experience: '3+ years'
   },
   {
-    name: 'React',
-    url: 'toolbox/reactjs_logo.png',
-    experience: '2+ years'
-  },
+    name: 'Angular (1, 2, 4)',
+    url: 'toolbox/angular_logo.png',
+    experience: '3+ years'
+  },,
   {
     name: 'Nodejs',
     url: 'toolbox/nodejs_logo_light.png',
