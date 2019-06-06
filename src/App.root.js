@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Section from './components/section';
 import Toolbox from './components/toolbox';
@@ -22,15 +21,18 @@ const sections = {
 const contactSections = {
   github: {
     icon: 'fa-github-alt',
-    url: 'https://github.com/tlerias'
+    url: 'https://github.com/tlerias',
+    ariaLabel: 'Github Profile',
   },
   linkedin: {
     icon: 'fa-linkedin-square',
-    url: 'https://www.linkedin.com/in/tlerias'
+    url: 'https://www.linkedin.com/in/tlerias',
+    ariaLabel: 'LinkedIn Profile',
   },
   email: {
     icon: 'fa-envelope',
-    url: 'mailto: shoutouttara@gmail.com'
+    url: 'mailto: shoutouttara@gmail.com',
+    ariaLabel: 'Email Address',
   },
 };
 /*
@@ -53,8 +55,8 @@ class App extends Component {
             <h2 className="App-header-subtext App-header-title">Front End Engineer</h2>
           </figure>
           <nav className="App-header-nav">
-            {Object.keys(contactSections).map(section => (
-              <a className="App-header-link" href={contactSections[section].url} target="_blank">
+            {Object.keys(contactSections).map((section, i) => (
+              <a key={`${contactSections[section].url}_${i}`} className="App-header-link" href={contactSections[section].url} target="_blank" rel="noopener noreferrer">
                 <i className={`App-header-icon fa ${contactSections[section].icon}`} />
               </a>
             ))}
